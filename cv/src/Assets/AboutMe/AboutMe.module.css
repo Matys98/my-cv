@@ -1,15 +1,16 @@
 .AboutMe{
-    background-color: rgb(192, 192, 192);
+    background-color: rgb(77, 77, 77);
 }
 
 .AboutMeInside{
-    background-color: rgb(167, 167, 167);
+    background-color: rgb(124, 124, 124);
     padding:15px;
-    border:1px solid rgb(134, 134, 134);
+    border:1px solid rgb(104, 104, 104);
     box-shadow: -1px 5px 15px black;
     margin-top:15%;
     margin-left:auto;
     margin-right:auto;
     margin-bottom:15%;
     width:50%;
+    font-size: medium;
 }
