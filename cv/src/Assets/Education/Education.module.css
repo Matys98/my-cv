@@ -4,8 +4,8 @@
 
 .EducationInside{
     background-color: rgb(124, 124, 124);
-    padding:15px;
-    border:1px solid rgb(104, 104, 104);
+    padding:15%;
+    border:1% solid rgb(104, 104, 104);
     box-shadow: -1px 5px 15px black;
     margin-top:15%;
     margin-left:auto;
@@ -13,4 +13,60 @@
     margin-bottom:15%;
     width:50%;
     font-size: medium;
+}
+
+.react-tabs {
+  display: flex;
+  margin-left: 36%;
+  width: 470%;
+  height: 400%;
+  border: 1% solid #3c3e43;
+  color: white;
+  background: #1c1d1f;
+}
+
+.react-tabs__tab-list {
+  display: flex;
+  flex-direction: column;
+  width: 170%;
+  margin: 0;
+  padding: 0;
+  color: white;
+  background: #3c3e43;
+}
+
+.react-tabs__tab {
+  height: 70px;
+  list-style: none;
+  padding: 12px 6px;
+  cursor: pointer;
+  color: #bbb;
+}
+
+.react-tabs__tab--selected {
+  background: #1c1d1f;
+  border-color: #1c1d1f;
+  border-left: 4% solid #6eb800;
+  color: white;
+}
+
+.react-tabs__tab-panel {
+  display: none;
+  width: 300%;
+}
+
+.react-tabs__tab-panel--selected {
+  display: block;
+}
+
+.react-tabs__tab {
+  padding-left: 24%;
+}
+
+.react-tabs__tab--selected {
+  padding-left: 21%;
+}
+
+.panel-content {
+  text-align: center;
 }
